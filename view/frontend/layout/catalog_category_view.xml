@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="main.content">
+            <container name="columns.bottom" as="columns_bottom" label="After Main Columns" after="columns" htmlTag="div" htmlClass="category-bottom">
+                <block class="Magento\Catalog\Block\Category\View" name="category.bottom_description" template="SamuelBSource_BottomDescription::category/bottom_description.phtml"/>
+            </container>
+        </referenceContainer>
+    </body>
+</page>
