@@ -1,0 +1,32 @@
+{
+  "name": "samuelbsource/module-bottom-description",
+  "description": "Adds a WYSIWYG-enabled bottom description attribute to Magento 2 categories and displays it below the main content.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "support": {
+    "source": "https://github.com/samuelbsource/module-bottom-description",
+    "issues": "https://github.com/samuelbsource/module-bottom-description/issues"
+  },
+  "authors": [
+    {
+      "name": "Samuel Boczek",
+      "email": "samuelboczek@gmail.com",
+      "homepage": "https://github.com/samuelbsource",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~8.1.0||~8.2.0||~8.3.0",
+    "magento/framework": "103.0.*",
+    "magento/module-catalog": "104.0.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "SamuelBSource\\BottomDescription\\": ""
+    }
+  }
+}
